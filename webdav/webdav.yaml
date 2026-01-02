@@ -1,0 +1,36 @@
+# Listen address
+address: 0.0.0.0
+port: # Your chosen port
+
+prefix: /
+permissions: CRUD
+
+# CORS configuration to allow all origins
+cors:
+  enabled: true
+  credentials: true
+  allowed_headers:
+    - "*"
+  allowed_hosts:
+    - "*"
+  allowed_methods:
+    - GET
+    - HEAD
+    - POST
+    - PUT
+    - DELETE
+    - OPTIONS
+    - PROPFIND
+    - PROPPATCH
+    - MKCOL
+    - COPY
+    - MOVE
+    - LOCK
+    - UNLOCK
+  exposed_headers:
+    - "*"
+
+users:
+  - username: "" #Your username
+    password: "" # Your password
+    directory: /data
