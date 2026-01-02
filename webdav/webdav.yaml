@@ -31,6 +31,6 @@ cors:
     - "*"
 
 users:
-  - username: "" #Your username
+  - username: "" # Your username
     password: "" # Your password
     directory: /data
