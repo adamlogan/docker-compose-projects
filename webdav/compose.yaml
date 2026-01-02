@@ -7,7 +7,7 @@ services:
     networks:
       webdav:
     volumes:
-      - ./webdav.yaml:/config.yml:ro
+      - ./webdav.yaml:/config.yml:ro # Edit wedav.yaml file before building.
       - ./data:/data
 networks:
   webdav:
