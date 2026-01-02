@@ -1,6 +1,6 @@
 # Listen address
 address: 0.0.0.0
-port: # Your chosen port
+port: 2345 # Replace with your chosen port.
 
 prefix: /
 permissions: CRUD
