@@ -1,0 +1,14 @@
+services:
+  webdav:
+    image: hacdias/webdav:latest
+    container_name: webdav
+    expose:
+      - "2345/tcp"
+    networks:
+      webdav:
+    volumes:
+      - ./webdav.yaml:/config.yml:ro
+      - ./data:/data
+networks:
+  webdav:
+   external: true
