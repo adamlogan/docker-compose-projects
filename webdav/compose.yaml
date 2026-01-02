@@ -3,7 +3,7 @@ services:
     image: hacdias/webdav:latest
     container_name: webdav
     expose:
-      - "2345/tcp"
+      - "2345/tcp" # Replace with your chosen port.
     networks:
       webdav:
     volumes:
